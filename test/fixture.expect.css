@@ -1,0 +1,9 @@
+/* 1. Comment to remain */
+a {
+    span {
+        background-color: black;
+    }
+    &.test {
+        background-color: black;
+    }
+}
