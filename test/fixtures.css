@@ -1,0 +1,14 @@
+/* 1. Comment to remain */
+// 2. Comment to remove
+a {
+    // 3. Comment to remove
+    span {
+        // 4. Comment to remove
+        background-color: black;
+    }
+    &.test { // 5. Comment to remove
+        // 6. Comment to remove; //
+        background-color: black;
+    }
+}
+// 7. Comment to remove
