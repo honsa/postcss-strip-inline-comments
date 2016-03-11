@@ -4,11 +4,11 @@ a {
     // 3. Comment to remove
     span {
         // 4. Comment to remove
-        background-color: black;
+        background-color: black; // 5. Comment to remove
     }
-    &.test { // 5. Comment to remove
-        // 6. Comment to remove; //
+    &.test { // 6. Comment to remove
+        // 7. Comment to remove; //
         background-color: black;
     }
 }
-// 7. Comment to remove
+// 8. Comment to remove
