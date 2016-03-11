@@ -6,7 +6,7 @@
 
 A plugin to remove inline CSS comments from compilation.
 
-```css
+```scss
 /* This comment will remain */
 // This comment will be removed
 body {
