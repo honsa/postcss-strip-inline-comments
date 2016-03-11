@@ -20,6 +20,8 @@ body {
 
 You need to have a compliant parser, currently either [postcss-scss](https://github.com/postcss/postcss-scss) or [sugarss](https://github.com/postcss/sugarss) already parsing your postcss for this plugin to work.
 
+###Install
+
 ```npm install postcss-strip-inline-comments --save-dev```
 
 ###Grunt
