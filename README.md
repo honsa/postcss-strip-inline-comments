@@ -80,3 +80,17 @@ var config = {
   ...
 }
 ```
+
+###Node
+
+```javascript
+import postcss from 'postcss';
+import syntax from 'postcss-scss';
+import stripInlineComments from 'strip-inline-comments';
+
+let css = fs.readFileSync('style.css', 'utf8');
+
+postcss([stripInlineComments]).process(css, { parser: syntax }).then( result => {
+    console.log(result.css);
+});
+```
