@@ -88,7 +88,7 @@ var config = {
 ```javascript
 import postcss from 'postcss';
 import syntax from 'postcss-scss';
-import stripInlineComments from 'strip-inline-comments';
+import stripInlineComments from 'postcss-strip-inline-comments';
 
 let css = fs.readFileSync('style.css', 'utf8');
 
