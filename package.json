@@ -1,6 +1,6 @@
 {
   "name": "postcss-strip-inline-comments",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Strip inline comments using the postcss-scss parser",
   "keywords": [
     "css",
