@@ -20,11 +20,11 @@ body {
 
 You need to have a compliant parser, currently either [postcss-scss](https://github.com/postcss/postcss-scss) or [sugarss](https://github.com/postcss/sugarss) already parsing your postcss for this plugin to work.
 
-###Install
+### Install
 
 ```npm install postcss-strip-inline-comments --save-dev```
 
-###Grunt
+### Grunt
 
 ```javascript
 grunt.initConfig({
@@ -42,7 +42,7 @@ grunt.initConfig({
 });
 ```
 
-###Gulp
+### Gulp
 
 ```javascript
 var gulp = require('gulp');
@@ -58,7 +58,7 @@ gulp.task('default', function () {
 });
 ```
 
-###Webpack
+### Webpack
 
 ```javascript
 var stripInlineComments = require('postcss-strip-inline-comments');
@@ -83,7 +83,7 @@ var config = {
 }
 ```
 
-###Node
+### Node
 
 ```javascript
 import postcss from 'postcss';
